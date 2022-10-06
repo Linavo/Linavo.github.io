@@ -11,6 +11,11 @@
   text-decoration: none;
   color: #000;
 }
+#lv:hover {
+  color: rgb(102, 102, 102);
+  text-decoration: none;
+  cursor: pointer;
+}
 nav {
   display: flex;
   flex-direction: row;
@@ -18,7 +23,7 @@ nav {
   float: right;
   padding: 2em 5em 0 0;
   font-weight: 200;
-  word-spacing: 4em;
+  word-spacing: 3em;
   color: #000;
 }
 a {
@@ -36,15 +41,53 @@ a:hover {
   justify-content: center;
   flex-direction: column;
   align-items: flex-start;
-  min-height: 100vh;
+  min-height: 90vh;
   line-height: 0.5em;
-  min-width: 100vw;
-  padding: 4em;
+  min-width: 30vw;
+  padding-left: 7em;
 }
 div h1 {
   font-size: 6em;
+  font-weight: 700;
 }
 div p {
   font-weight: 200;
   font-size: 1em;
+}
+.about-box {
+  display: block;
+  padding: 4em 0 0 3em;
+}
+h1.about-box {
+  font-size: 3em;
+  font-weight: 800;
+}
+.container {
+  width: 50vw;
+  padding-top: 3em;
+  margin-left: 8.25em;
+  float: left;
+  font-weight: 300;
+}
+.ul1 {
+  padding: 15em 0 0 8em;
+}
+
+@media (max-width: 600px) {
+  .box1 {
+    padding: 2em 1em 0 1em;
+    height: 1vh;
+    display: inline-block;
+    line-height: 1;
+  }
+  div h1 {
+    font-size: 4em;
+  }
+  nav {
+    display: block;
+    word-spacing: 0em;
+  }
+  #lv {
+    display: inline-block;
+  }
 }
