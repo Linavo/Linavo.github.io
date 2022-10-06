@@ -9,18 +9,24 @@
   font-weight: 600;
   font-size: 2.5em;
   text-decoration: none;
-  color: black;
+  color: #000;
 }
 nav {
   float: right;
   padding: 2em 5em 0 0;
   font-weight: 200;
   word-spacing: 4em;
+  color: #000;
 }
-nav a:link {
+a {
   text-decoration: none;
   font-size: 1em;
-  color: black;
+  color: #000;
+}
+a:hover {
+  color: rgb(102, 102, 102);
+  text-decoration: none;
+  cursor: pointer;
 }
 .box1 {
   display: flex;
@@ -29,8 +35,13 @@ nav a:link {
   align-items: flex-start;
   min-height: 100vh;
   line-height: 0.5em;
-  max-width: 50vw;
+  min-width: 100vw;
+  padding: 4em;
 }
 div h1 {
   font-size: 6em;
+}
+div p {
+  font-weight: 200;
+  font-size: 1em;
 }
