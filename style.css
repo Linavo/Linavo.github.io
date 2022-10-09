@@ -1,35 +1,35 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-#lv {
-  float: left;
-  padding: 0.4em 0 0 1.5em;
-  font-weight: 600;
-  font-size: 2.5em;
-  text-decoration: none;
-  color: #000;
-}
-#lv:hover {
-  color: rgb(102, 102, 102);
-  text-decoration: none;
-  cursor: pointer;
-}
-nav {
+body {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  float: right;
-  padding: 2em 5em 0 0;
-  font-weight: 200;
-  word-spacing: 3em;
-  color: #000;
+  flex-direction: column;
+  margin: 0;
 }
-a {
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-weight: 200;
+  padding-top: 20px;
+}
+header nav {
+  width: 1700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  word-spacing: 3em;
+}
+header h1 a {
+  color: black;
   text-decoration: none;
   font-size: 1em;
-  color: #000;
+  font-weight: 600;
+}
+li {
+  flex-direction: row;
+}
+ul a {
+  color: black;
+  text-decoration: none;
+  padding: 0 10px 0 10px;
 }
 a:hover {
   color: rgb(102, 102, 102);
@@ -38,13 +38,11 @@ a:hover {
 }
 .box1 {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  align-items: flex-start;
-  min-height: 90vh;
-  line-height: 0.5em;
-  min-width: 30vw;
+  justify-content: center;
+  height: 750px;
   padding-left: 7em;
+  line-height: 0.5em;
 }
 div h1 {
   font-size: 6em;
@@ -54,40 +52,12 @@ div p {
   font-weight: 200;
   font-size: 1em;
 }
-.about-box {
-  display: block;
-  padding: 4em 0 0 3em;
-}
-h1.about-box {
-  font-size: 3em;
-  font-weight: 800;
-}
-.container {
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 50vw;
-  padding-top: 3em;
-  margin-left: 8.25em;
-  float: left;
-  font-weight: 300;
-}
-.ul1 {
-  padding: 15em 0 0 8em;
-}
-
-@media (max-width: 600px) {
-  .box1 {
-    padding: 2em 1em 0 1em;
-    height: 1vh;
-    display: inline-block;
-    line-height: 1;
-  }
-  div h1 {
-    font-size: 4em;
-  }
-  nav {
-    display: block;
-    word-spacing: 0em;
-  }
-  #lv {
-    display: inline-block;
-  }
+  height: 600px;
+  padding-left: 7em;
+  font-weight: 250;
 }
