@@ -11,7 +11,7 @@ header {
   padding-top: 20px;
 }
 header nav {
-  width: 1700px;
+  width: 1200px;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -40,7 +40,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 750px;
+  height: 550px;
   padding-left: 7em;
   line-height: 0.5em;
 }
