@@ -4,45 +4,49 @@ body {
   margin: 0;
 }
 header {
-  width: 100%;
+  margin-top: 2em;
+  width: 100vw;
   display: flex;
   justify-content: center;
   font-weight: 200;
-  padding-top: 20px;
 }
 header nav {
-  width: 1200px;
+  width: 80vw;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   word-spacing: 3em;
 }
 header h1 a {
+  display: flex;
   color: black;
   text-decoration: none;
   font-size: 1em;
   font-weight: 600;
 }
 li {
+  display: flex;
   flex-direction: row;
 }
 ul a {
   color: black;
   text-decoration: none;
-  padding: 0 10px 0 10px;
 }
 a:hover {
-  color: rgb(102, 102, 102);
-  text-decoration: none;
+  color: rgb(139, 139, 139);
   cursor: pointer;
+  transition: 0.5s;
+}
+.nav-list {
+  margin: 0;
 }
 .box1 {
   display: flex;
-  flex-direction: column;
+  height: 70vh;
+  width: 70vw;
   justify-content: center;
-  height: 550px;
-  padding-left: 7em;
-  line-height: 0.5em;
+  align-items: center;
+  line-height: 0.5;
 }
 div h1 {
   font-size: 6em;
@@ -53,11 +57,31 @@ div p {
   font-size: 1em;
 }
 .about-me {
+  display: inline-flex;
+  height: 80vh;
+  width: 70vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about-me-h2 {
+  width: 50vw;
+}
+.p-container {
+  width: 50vw;
+}
+.projects {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  width: 50vw;
-  height: 600px;
-  padding-left: 7em;
-  font-weight: 250;
+}
+.figures {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.figures,
+a {
+  color: black;
+  text-decoration: none;
+  transition: 0.5s;
 }
