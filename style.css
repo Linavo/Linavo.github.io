@@ -71,17 +71,100 @@ div p {
   width: 50vw;
 }
 .projects {
+  margin-top: 5vh;
   display: flex;
-  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.figures {
-  width: 100%;
-  border-radius: 10px;
-  overflow: hidden;
+.project-items1 {
+  transition: 0.25s;
+  background-image: url(imgs/Screen\ Shot\ 2022-11-08\ at\ 8.38.07\ AM.png);
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  width: 400px;
+  margin: 20px;
+  /* box-shadow: 5px 5px 5px lightgray; */
 }
-.figures,
+.project-items1:hover {
+  transition: 0.25s;
+  background-image: url(imgs/socialmedia.png);
+}
+.project-items2 {
+  transition: 0.25s;
+  background-image: url(imgs/Screen\ Shot\ 2022-11-08\ at\ 8.38.44\ AM.png);
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  width: 400px;
+  margin: 20px;
+}
+.project-items2:hover {
+  transition: 0.25s;
+  background-image: url(imgs/nftgo.png);
+}
+.project-items3 {
+  transition: 0.25s;
+  background-image: url(imgs/SwipeOutHunger\ iPhone\ Mockup\ TWC\ 444\ LINA\ VO.png);
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  width: 400px;
+  margin: 20px;
+}
+.project-items3:hover {
+  transition: 0.25s;
+  background-image: url(imgs/swipeout.png);
+}
+.project-items4 {
+  transition: 0.25s;
+  background-image: url(imgs/Comp1-1.jpeg);
+  background-size: cover;
+  height: 250px;
+  width: 400px;
+  margin: 20px;
+}
+.project-items4:hover {
+  transition: 0.25s;
+  background-image: url(imgs/compblack.png);
+}
+.project-items5 {
+  transition: 0.25s;
+  background-image: url(imgs/Screen\ Shot\ 2022-11-08\ at\ 9.00.27\ AM.png);
+  background-size: cover;
+  height: 250px;
+  width: 400px;
+  margin: 20px;
+}
+.project-items5:hover {
+  transition: 0.25s;
+  background-image: url(imgs/ulta.png);
+}
+.project-title {
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+  width: 400px;
+  margin-top: 46px;
+  /* box-shadow: 5px 5px 5px lightgray; */
+  box-shadow: 0 6px 20px rgba(179, 195, 225, 0.293);
+}
+.project-name {
+  transition: 0.25s;
+  color: rgb(82, 82, 82);
+  background-color: white;
+  width: 400px;
+  height: 7vh;
+  text-align: center;
+  padding-top: 0.5em;
+  font-size: 1.5em;
+}
+.project-name:hover {
+  transition: 0.25s;
+  color: rgb(222, 222, 222);
+}
 a {
-  color: black;
   text-decoration: none;
-  transition: 0.5s;
 }
