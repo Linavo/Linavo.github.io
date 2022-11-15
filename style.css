@@ -1,10 +1,11 @@
 body {
+  transition: 1s;
   display: flex;
   flex-direction: column;
   margin: 0;
 }
 header {
-  margin-top: 2em;
+  margin-top: 1vh;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -18,17 +19,22 @@ header nav {
   word-spacing: 3em;
 }
 header h1 a {
+  transition: 1s;
   display: flex;
   color: black;
   text-decoration: none;
   font-size: 1em;
   font-weight: 600;
 }
+header nav h1 {
+  margin-bottom: 0;
+}
 li {
   display: flex;
   flex-direction: row;
 }
 ul a {
+  transition: 1s;
   color: black;
   text-decoration: none;
 }
@@ -54,7 +60,7 @@ div h1 {
 }
 div p {
   font-weight: 200;
-  font-size: 1em;
+  font-size: 1.1em;
 }
 .about-me {
   display: inline-flex;
@@ -167,4 +173,39 @@ div p {
 }
 a {
   text-decoration: none;
+}
+.socialMediaContainer {
+  margin: 9em 3em 6em 3em;
+  display: flex;
+  /* align-items: center; */
+}
+.socialMediaText {
+  margin-right: 5em;
+}
+.alignImgandButt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5em;
+}
+.clickMe {
+  transition: 0.5s;
+  margin-top: 2em;
+  width: 17em;
+  height: 3em;
+  font-size: 1.5em;
+  border: black 2px solid;
+  background-color: white;
+}
+.clickMe:hover {
+  transition: 0.25s;
+  color: white;
+  border: black;
+  background-color: black;
+}
+.swipeHunger {
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
+  align-items: center;
 }
