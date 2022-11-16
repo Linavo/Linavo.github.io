@@ -70,6 +70,9 @@ div p {
   justify-content: center;
 }
 .about-me-h2 {
+  margin-bottom: 0.5em;
+  font-weight: 500;
+  font-size: 3em;
   width: 50vw;
 }
 .p-container {
@@ -95,7 +98,7 @@ div p {
 }
 .project-items1:hover {
   transition: 0.25s;
-  background-image: url(imgs/socialmedia.png);
+  opacity: 0.4;
 }
 .project-items2 {
   transition: 0.25s;
@@ -108,7 +111,7 @@ div p {
 }
 .project-items2:hover {
   transition: 0.25s;
-  background-image: url(imgs/nftgo.png);
+  opacity: 0.4;
 }
 .project-items3 {
   transition: 0.25s;
@@ -121,7 +124,7 @@ div p {
 }
 .project-items3:hover {
   transition: 0.25s;
-  background-image: url(imgs/swipeout.png);
+  opacity: 0.4;
 }
 .project-items4 {
   transition: 0.25s;
@@ -133,7 +136,7 @@ div p {
 }
 .project-items4:hover {
   transition: 0.25s;
-  background-image: url(imgs/compblack.png);
+  opacity: 0.4;
 }
 .project-items5 {
   transition: 0.25s;
@@ -145,7 +148,7 @@ div p {
 }
 .project-items5:hover {
   transition: 0.25s;
-  background-image: url(imgs/ulta.png);
+  opacity: 0.4;
 }
 .project-title {
   display: flex;
