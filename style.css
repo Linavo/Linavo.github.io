@@ -214,10 +214,11 @@ a {
   font-size: 3em;
 }
 form {
+  text-align: center;
+  width: 50vw;
   height: 70vh;
   display: flex;
   justify-content: center;
-
   flex-direction: column;
   align-items: center;
 }
