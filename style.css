@@ -12,7 +12,6 @@ main {
   transition: opacity 0.25s ease-in;
 }
 header {
-  /* padding-top: 1vh; */
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -66,6 +65,10 @@ a:hover {
 .nav-list {
   margin: 0;
 }
+.bg1 {
+  background-image: url(imgs/home2.png);
+  background-size: contain;
+}
 .box1 {
   padding-top: 5em;
   display: flex;
@@ -102,25 +105,6 @@ div p {
 }
 a {
   text-decoration: none;
-}
-
-.clickMe {
-  transition: 0.2s;
-  margin-top: 2em;
-  font-size: 1.5em;
-  padding: 0.8em 2em;
-  border: black 2px solid;
-  color: white;
-  background-color: black;
-}
-.clickMe:hover {
-  opacity: 0.6;
-}
-.swipeHunger {
-  display: flex;
-  width: 100vw;
-  justify-content: space-evenly;
-  align-items: center;
 }
 .contact {
   margin-top: 2em;
