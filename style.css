@@ -18,8 +18,17 @@ header {
   justify-content: center;
   font-weight: 200;
   position: fixed;
-  background-color: #fff;
-  box-shadow: 0 6px 20px rgba(185, 185, 185, 0.293);
+
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-backdrop-filter: blur(4px);
+  -o-backdrop-filter: blur(4px);
+  -moz-backdrop-filter: blur(4px);
+
+  backdrop-filter: blur(4px);
+  /* box-shadow: 2px 2px 5px #aaaaaa; */
+  backdrop-filter: blur(5px);
+  top: 0;
+  transition: top 0.3s;
 }
 header nav {
   width: 80vw;
@@ -58,8 +67,9 @@ a:hover {
   margin: 0;
 }
 .box1 {
+  padding-top: 5em;
   display: flex;
-  height: 100vh;
+  height: 85vh;
   width: 80vw;
   justify-content: center;
   align-items: center;
@@ -74,10 +84,10 @@ div p {
   font-size: 1.1em;
 }
 .about-me {
+  margin-top: 3em;
   display: flex;
   height: 100vh;
   width: 100vw;
-  margin-top: 3em;
   align-items: center;
   justify-content: center;
 }
@@ -90,128 +100,10 @@ div p {
 .p-container {
   width: 50vw;
 }
-.projects {
-  margin-top: 5vh;
-  display: flex;
-  width: 100vw;
-  height: 100vh;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.project-items1 {
-  transition: 0.25s;
-  background-image: url(imgs/Screen\ Shot\ 2022-11-08\ at\ 8.38.07\ AM.png);
-  background-size: cover;
-  background-position: center;
-  height: 250px;
-  width: 400px;
-  margin: 20px;
-  box-shadow: 0 10px 30px -15px rgba(60, 60, 60, 0.293);
-  border-radius: 15px;
-}
-.project-items1:hover {
-  transition: 0.25s;
-  opacity: 0.4;
-}
-.project-items2 {
-  transition: 0.25s;
-  background-image: url(imgs/Screen\ Shot\ 2022-11-08\ at\ 8.38.44\ AM.png);
-  background-size: cover;
-  background-position: center;
-  height: 250px;
-  width: 400px;
-  margin: 20px;
-  box-shadow: 0 10px 30px -15px rgba(60, 60, 60, 0.293);
-  border-radius: 15px;
-}
-.project-items2:hover {
-  transition: 0.25s;
-  opacity: 0.4;
-}
-.project-items3 {
-  transition: 0.25s;
-  background-image: url(imgs/SwipeOutHunger\ iPhone\ Mockup\ TWC\ 444\ LINA\ VO.png);
-  background-size: cover;
-  background-position: center;
-  height: 250px;
-  width: 400px;
-  margin: 20px;
-  box-shadow: 0 10px 30px -15px rgba(60, 60, 60, 0.293);
-  border-radius: 15px;
-}
-.project-items3:hover {
-  transition: 0.25s;
-  opacity: 0.4;
-}
-.project-items4 {
-  transition: 0.25s;
-  background-image: url(imgs/Comp1-1.jpeg);
-  background-size: cover;
-  height: 250px;
-  width: 400px;
-  margin: 20px;
-  box-shadow: 0 10px 30px -15px rgba(60, 60, 60, 0.293);
-  border-radius: 15px;
-}
-.project-items4:hover {
-  transition: 0.25s;
-  opacity: 0.4;
-}
-.project-items5 {
-  transition: 0.25s;
-  background-image: url(imgs/Screen\ Shot\ 2022-11-08\ at\ 9.00.27\ AM.png);
-  background-size: cover;
-  height: 250px;
-  width: 400px;
-  margin: 20px;
-  box-shadow: 0 10px 30px -15px rgba(60, 60, 60, 0.293);
-  border-radius: 15px;
-}
-.project-items5:hover {
-  transition: 0.25s;
-  opacity: 0.4;
-}
-.project-title {
-  display: flex;
-  align-items: flex-end;
-  height: 100%;
-  width: 400px;
-}
-.project-name {
-  transition: 0.25s;
-  color: rgb(0, 0, 0);
-  background-color: white;
-  padding-bottom: 2em;
-  width: 400px;
-  height: 7vh;
-  text-align: center;
-  padding-top: 0.5em;
-  font-size: 1.5em;
-  font-weight: 400;
-  margin-bottom: 0;
-  border-radius: 0% 0% 15px 15px;
-}
-.project-name:hover {
-  transition: 0.25s;
-  color: rgb(222, 222, 222);
-}
 a {
   text-decoration: none;
 }
-.socialMediaContainer {
-  margin: 9em 3em 6em 3em;
-  display: flex;
-  /* align-items: center; */
-}
-.socialMediaText {
-  margin-right: 5em;
-}
-.alignImgandButt {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 5em;
-}
+
 .clickMe {
   transition: 0.2s;
   margin-top: 2em;
@@ -231,10 +123,12 @@ a {
   align-items: center;
 }
 .contact {
+  margin-top: 2em;
   display: flex;
-  height: 100vh;
+  height: 90vh;
   justify-content: center;
   align-items: center;
+  padding-bottom: 7em;
 }
 .contact h2 {
   font-weight: 700;
