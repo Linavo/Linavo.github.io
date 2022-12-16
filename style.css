@@ -92,7 +92,7 @@ div p {
   height: 100vh;
 }
 .about-me {
-  margin-top: 3em;
+  margin-top: 1em;
   display: flex;
   height: 50vh;
   width: 100vw;
@@ -104,17 +104,24 @@ div p {
   font-size: 3em;
   width: 100vw;
   height: 20vh;
-  margin-top: 2em;
+  margin-top: 5.5em;
 }
 
 .p-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  height: 45vh;
   width: 50vw;
+  background-color: white;
+  box-shadow: 2px 2px 40px rgb(204, 204, 204);
+  border-radius: 20px;
 }
 a {
   text-decoration: none;
 }
 .contact {
-  margin-top: 10em;
+  margin-top: 17em;
   display: flex;
   height: 90vh;
   justify-content: center;
@@ -163,10 +170,9 @@ footer a:hover {
 }
 .projects {
   padding-top: 10vh;
-
   display: flex;
   flex-direction: column;
-  margin-top: 5em;
+  margin-top: 14em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -182,10 +188,10 @@ footer a:hover {
   display: flex;
   flex-direction: column;
   width: 60vw;
-  height: 90vh;
-  justify-content: center;
+  height: 800px;
   align-items: center;
   flex-wrap: wrap;
+  margin-bottom: 10em;
   /* background-color: black; */
   /* border: 1px black solid; */
   /* align-items: center; */
@@ -196,7 +202,12 @@ footer a:hover {
   margin: 0.7em;
   /* box-shadow: 2px 2px 10px rgba(255, 247, 235, 0.35); */
 }
+
 .bg3 {
   background-image: url(imgs/projects1.png);
+  background-size: contain;
+}
+.bg4 {
+  background-image: url(imgs/contact1.png);
   background-size: contain;
 }

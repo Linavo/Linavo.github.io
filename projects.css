@@ -1,0 +1,54 @@
+#calc {
+  background-image: url(imgs/calc2.png);
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 500px;
+}
+#etch {
+  background-image: url(imgs/etch.png);
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 300px;
+}
+#rps {
+  background-image: url(imgs/rock1.png);
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+}
+.container1 {
+  transition: 0.1s;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  background-image: linear-gradient(rgba(9, 9, 9, 0.01), rgba(0, 0, 0, 0.827));
+  border-radius: 20px;
+}
+
+.container1 a {
+  text-decoration: none;
+  color: white;
+}
+.container1 a:hover {
+  color: white;
+}
+
+.projectsText,
+#projectsHeader {
+  line-height: 1em;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+}
+
+#projectsHeader {
+  font-size: 2em;
+  font-weight: 600;
+}
+.projectsLang {
+  font-weight: 600;
+}
