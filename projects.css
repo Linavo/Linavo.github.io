@@ -52,3 +52,31 @@
 .projectsLang {
   font-weight: 600;
 }
+@media screen and (max-width: 959px) {
+  #calc {
+    width: 280px;
+    height: 350px;
+  }
+  #etch {
+    width: 280px;
+    height: 350px;
+  }
+  #rps {
+    width: 280px;
+    height: 280px;
+  }
+}
+@media screen and (max-width: 430px) {
+  #calc {
+    width: 280px;
+    height: 330px;
+  }
+  #etch {
+    width: 280px;
+    height: 330px;
+  }
+  #rps {
+    width: 280px;
+    height: 330px;
+  }
+}

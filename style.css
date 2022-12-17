@@ -211,3 +211,98 @@ footer a:hover {
   background-image: url(imgs/contact1.png);
   background-size: contain;
 }
+@media screen and (max-width: 959px) {
+  .box1 {
+    padding: 2em;
+    height: 69em;
+    /* width: 700px; */
+    line-height: 1;
+  }
+  .about-me {
+    padding: 2em;
+    /* width: 700px; */
+  }
+  .projectsContainer {
+    width: 650px;
+    margin-bottom: 0;
+  }
+  .about-me-h2 {
+    margin-top: 2em;
+  }
+  .projects {
+    padding-top: 0;
+    margin-top: 20em;
+  }
+  .bg2 {
+    height: 900px;
+  }
+  .contact {
+    margin-top: 6em;
+    margin-bottom: 10em;
+    padding: 0;
+    height: 50em;
+  }
+  .p-container {
+    height: 70vh;
+    width: 50vw;
+  }
+  .about-me {
+    height: 80vh;
+  }
+}
+@media screen and (max-width: 692px) {
+  .about-me {
+    flex-direction: column-reverse;
+    align-self: baseline;
+  }
+  .circle {
+    /* width: 15em; */
+    margin-left: 0;
+    margin-bottom: 5vh;
+  }
+  .p-container {
+    width: 80vw;
+    height: 23em;
+  }
+  .about-me-h2 {
+    height: 10vh;
+  }
+}
+@media screen and (max-width: 430px) {
+  header nav {
+    width: 100vw;
+    padding: 1em;
+  }
+  .projectsContainer {
+    width: 100vw;
+    height: 1200px;
+  }
+  .box1 {
+    width: 100vw;
+    margin-right: 0;
+    margin-top: 9vh;
+    height: 40em;
+  }
+  .about-me {
+    margin-top: 20vh;
+  }
+  .circle {
+    width: 10em;
+  }
+  .p-container {
+    padding: 2em;
+    width: 85vw;
+    height: 50em;
+  }
+  .projects {
+    margin-top: 15em;
+    height: 1000px;
+  }
+  form {
+    width: 80vw;
+  }
+  .contact {
+    height: 80vh;
+    margin-bottom: 5em;
+  }
+}
