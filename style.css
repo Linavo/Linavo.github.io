@@ -288,11 +288,13 @@ footer a:hover {
   }
   .circle {
     width: 10em;
+    margin: 0;
   }
   .p-container {
     padding: 2em;
     width: 85vw;
     height: 50em;
+    margin: 1em;
   }
   .projects {
     margin-top: 15em;
@@ -300,9 +302,16 @@ footer a:hover {
   }
   form {
     width: 80vw;
+    margin-top: 10em;
+    margin-bottom: 10em;
   }
   .contact {
     height: 80vh;
     margin-bottom: 5em;
+    margin-top: 15em;
+  }
+  .projects h2 {
+    margin-top: 5em;
+    margin-bottom: 0.5em;
   }
 }
