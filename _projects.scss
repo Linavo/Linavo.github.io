@@ -1,0 +1,103 @@
+#trent {
+  background-image: url(imgs/trent.png);
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 300px;
+}
+
+#calc {
+  background-image: url(imgs/calc2.png);
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 500px;
+}
+#etch {
+  background-image: url(imgs/etch.png);
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 300px;
+}
+#rps {
+  background-image: url(imgs/rock1.png);
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+}
+.container1 {
+  transition: 0.1s;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  background-image: linear-gradient(rgba(9, 9, 9, 0.01), rgba(0, 0, 0, 0.827));
+  border-radius: 20px;
+}
+
+.container1 a {
+  text-decoration: none;
+  color: white;
+}
+.container1 a:hover {
+  color: white;
+}
+
+.projectsText,
+#projectsHeader {
+  line-height: 1em;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+}
+
+#projectsHeader {
+  font-size: 2em;
+  font-weight: 600;
+}
+.projectsLang {
+  font-weight: 600;
+}
+@media screen and (max-width: 959px) {
+  #trent {
+    width: 280px;
+    height: 350px;
+  }
+  #calc {
+    width: 280px;
+    height: 350px;
+  }
+  #etch {
+    width: 280px;
+    height: 350px;
+  }
+  #rps {
+    width: 280px;
+    height: 280px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .projectalignment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #trent {
+    width: 360px;
+    height: 250px;
+  }
+  #calc {
+    width: 360px;
+    height: 450px;
+  }
+  #etch {
+    width: 360px;
+    height: 250px;
+  }
+  #rps {
+    width: 360px;
+    height: 270px;
+  }
+}

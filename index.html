@@ -21,8 +21,6 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="loader.css" />
-    <link rel="stylesheet" href="projects.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -101,7 +99,7 @@
           About Me.
         </h2>
         <div class="about-me">
-          <p class="p-container">
+          <div class="p-container">
             Hello! My name is Lina and I enjoy figuring out solutions to daily
             problems. My interest in front end development began in product
             design. I originally started my passion in creating digital
@@ -113,7 +111,7 @@
             local college, I furthered my education by teaching myself
             Javascript. My main focus these days is to build functional websites
             that are also mobile friendly!
-          </p>
+          </div>
           <div>
             <img src="imgs/IMG_5878.png" alt="picture of me" class="circle" />
           </div>
@@ -123,74 +121,103 @@
         <div class="projects" id="project">
           <h2>Projects.</h2>
           <div class="projectsContainer">
-            <div class="pImages" id="calc">
-              <div class="container1">
-                <div class="projectsText" id="projectsHeader">Calculator</div>
-                <div class="projectsText">
-                  Web application that calculates simple equations. <br /><br />
-                  <span class="projectsLang">HTML/CSS, Javascript</span
-                  ><br /><br /><span style="word-spacing: 5px">
-                    <a
-                      href="https://github.com/linavo/calculator"
-                      target="_blank"
-                      ><i class="fa fa-github" style="font-size: 2em"></i
-                    ></a>
-                    <a href="https://linaqvo.com/calculator/" target="_blank"
-                      ><i
-                        class="bi bi-box-arrow-up-right"
-                        style="font-size: 2em"
-                      ></i></a
-                  ></span>
+            <div class="projectalignment">
+              <div class="pImages" id="trent">
+                <div class="container1">
+                  <div class="projectsText" id="projectsHeader">
+                    Trent Mulder Real Estate
+                  </div>
+                  <div class="projectsText">
+                    Built a website for a real estate client. <br /><br />
+                    <span class="projectsLang">HTML/CSS, SCSS, Netifly</span
+                    ><br /><br /><span style="word-spacing: 5px">
+                      <a
+                        href="https://github.com/linavo/trentmulder"
+                        target="_blank"
+                        ><i class="fa fa-github" style="font-size: 2em"></i
+                      ></a>
+                      <a href="https://trentmulder.com/" target="_blank"
+                        ><i
+                          class="bi bi-box-arrow-up-right"
+                          style="font-size: 2em"
+                        ></i></a
+                    ></span>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="pImages" id="etch">
-              <div class="container1">
-                <div class="projectsText" id="projectsHeader">
-                  Etch-A-Sketch
-                </div>
-                <div class="projectsText">
-                  A responsive web app that allows users to use their
-                  imaginations to draw. <br /><br />
-                  <span class="projectsLang">HTML/CSS, Javascript</span
-                  ><br /><br /><span style="word-spacing: 5px">
-                    <a
-                      href="https://github.com/linavo/etch-a-sketch"
-                      target="_blank"
-                      ><i class="fa fa-github" style="font-size: 2em"></i
-                    ></a>
-                    <a href="https://linaqvo.com/etch-a-sketch/" target="_blank"
-                      ><i
-                        class="bi bi-box-arrow-up-right"
-                        style="font-size: 2em"
-                      ></i></a
-                  ></span>
+
+              <div class="pImages" id="calc">
+                <div class="container1">
+                  <div class="projectsText" id="projectsHeader">Calculator</div>
+                  <div class="projectsText">
+                    Web application that calculates simple equations.
+                    <br /><br />
+                    <span class="projectsLang">HTML/CSS, Javascript</span
+                    ><br /><br /><span style="word-spacing: 5px">
+                      <a
+                        href="https://github.com/linavo/calculator"
+                        target="_blank"
+                        ><i class="fa fa-github" style="font-size: 2em"></i
+                      ></a>
+                      <a href="https://linaqvo.com/calculator/" target="_blank"
+                        ><i
+                          class="bi bi-box-arrow-up-right"
+                          style="font-size: 2em"
+                        ></i></a
+                    ></span>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="pImages" id="rps">
-              <div class="container1">
-                <div class="projectsText" id="projectsHeader">
-                  Rock Paper Scissors
+              <div class="pImages" id="etch">
+                <div class="container1">
+                  <div class="projectsText" id="projectsHeader">
+                    Etch-A-Sketch
+                  </div>
+                  <div class="projectsText">
+                    A responsive web app that allows users to use their
+                    imaginations to draw. <br /><br />
+                    <span class="projectsLang">HTML/CSS, Javascript</span
+                    ><br /><br /><span style="word-spacing: 5px">
+                      <a
+                        href="https://github.com/linavo/etch-a-sketch"
+                        target="_blank"
+                        ><i class="fa fa-github" style="font-size: 2em"></i
+                      ></a>
+                      <a
+                        href="https://linaqvo.com/etch-a-sketch/"
+                        target="_blank"
+                        ><i
+                          class="bi bi-box-arrow-up-right"
+                          style="font-size: 2em"
+                        ></i></a
+                    ></span>
+                  </div>
                 </div>
-                <div class="projectsText">
-                  Experience playing against the computer in Rock Paper
-                  Scissors. <br /><br />
-                  <span class="projectsLang">HTML/CSS, Javascript</span
-                  ><br /><br /><span style="word-spacing: 5px">
-                    <a
-                      href="https://github.com/linavo/rock-paper-scissors"
-                      target="_blank"
-                      ><i class="fa fa-github" style="font-size: 2em"></i
-                    ></a>
-                    <a
-                      href="https://linaqvo.com/rock-paper-scissors/"
-                      target="_blank"
-                      ><i
-                        class="bi bi-box-arrow-up-right"
-                        style="font-size: 2em"
-                      ></i></a
-                  ></span>
+              </div>
+              <div class="pImages" id="rps">
+                <div class="container1">
+                  <div class="projectsText" id="projectsHeader">
+                    Rock Paper Scissors
+                  </div>
+                  <div class="projectsText">
+                    Experience playing against the computer in Rock Paper
+                    Scissors. <br /><br />
+                    <span class="projectsLang">HTML/CSS, Javascript</span
+                    ><br /><br /><span style="word-spacing: 5px">
+                      <a
+                        href="https://github.com/linavo/rock-paper-scissors"
+                        target="_blank"
+                        ><i class="fa fa-github" style="font-size: 2em"></i
+                      ></a>
+                      <a
+                        href="https://linaqvo.com/rock-paper-scissors/"
+                        target="_blank"
+                        ><i
+                          class="bi bi-box-arrow-up-right"
+                          style="font-size: 2em"
+                        ></i></a
+                    ></span>
+                  </div>
                 </div>
               </div>
             </div>
